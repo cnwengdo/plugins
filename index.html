@@ -19,28 +19,30 @@
     </section>
 
     <section class="main-content">
-      <h3>
-<a id="欢迎使用文豆插件开源库" class="anchor" href="#%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8%E6%96%87%E8%B1%86%E6%8F%92%E4%BB%B6%E5%BC%80%E6%BA%90%E5%BA%93" aria-hidden="true"><span class="octicon octicon-link"></span></a>欢迎使用文豆插件开源库.</h3>
+      <h2>
+<a id="插件实用说明" class="anchor" href="#%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%94%A8%E8%AF%B4%E6%98%8E" aria-hidden="true"><span class="octicon octicon-link"></span></a>插件实用说明</h2>
 
-<p>首先，感谢一直陪伴着该项目组开发的小伙伴们，拼命的熬夜加班才让这个开源库更加丰富、完善 </p>
-
-<h3>
-<a id="文豆科技网络有限公司技术团队" class="anchor" href="#%E6%96%87%E8%B1%86%E7%A7%91%E6%8A%80%E7%BD%91%E7%BB%9C%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F" aria-hidden="true"><span class="octicon octicon-link"></span></a>文豆科技网络有限公司，技术团队</h3>
+<p>贡献：wengdo.com </p>
 
 <ul>
-<li>...</li>
-<li>...</li>
-<li>...</li>
+<li>文豆技术团队</li>
+<li>2015-8-31</li>
 </ul>
 
-<h3>
-<a id="插件库" class="anchor" href="#%E6%8F%92%E4%BB%B6%E5%BA%93" aria-hidden="true"><span class="octicon octicon-link"></span></a>插件库</h3>
+<p>1.引入js文件</p>
 
-<ul>
-<li>a</li>
-<li>b</li>
-<li>c</li>
-</ul>
+<div class="highlight highlight-html"><pre>
+    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>./calendar/calendar.css<span class="pl-pds">"</span></span> /&gt;
+<span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>./calendar/calendar.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+</pre></div>
+
+<p>2.在body对应的表单里面添加以下代码</p>
+
+<div class="highlight highlight-html"><pre>
+    &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">readonly</span>=<span class="pl-s"><span class="pl-pds">"</span>readonly<span class="pl-pds">"</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>artcate_time<span class="pl-pds">"</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>artcate_time<span class="pl-pds">"</span></span> /&gt;
+    &lt;<span class="pl-ent">input</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>button<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>button<span class="pl-pds">"</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>selbtn<span class="pl-pds">"</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>selbtn<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>选择日期<span class="pl-pds">"</span></span> 
+    <span class="pl-e">onclick</span>=<span class="pl-s"><span class="pl-pds">"</span>showCalendar('artcate_time', '%Y-%m-%d %H:%M', '24', false, 'selbtn');<span class="pl-pds">"</span></span> /&gt;
+</pre></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/cnwengdo/plugins">Plugins</a> is maintained by <a href="https://github.com/cnwengdo">cnwengdo</a>.</span>
